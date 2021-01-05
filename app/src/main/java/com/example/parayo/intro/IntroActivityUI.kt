@@ -4,9 +4,8 @@ import android.app.Activity
 import android.graphics.Typeface
 import android.view.Gravity
 import android.view.View
-import org.jetbrains.anko.AnkoComponent
-import org.jetbrains.anko.AnkoContext
-import org.jetbrains.anko.relativeLayout
+import com.example.parayo.R
+import org.jetbrains.anko.*
 
 class IntroActivityUI : AnkoComponent<IntroActivity> {
     override fun createView(ui: AnkoContext<IntroActivity>): View {
